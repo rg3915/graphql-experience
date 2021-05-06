@@ -1,4 +1,4 @@
-## Tutorial 0: Build a GraphQL API with Python, Flask and Ariadne
+## Build a GraphQL API with Python, Flask and Ariadne
 
 https://www.twilio.com/blog/graphql-api-python-flask-ariadne
 

@@ -1,4 +1,4 @@
-## Tutorial 1: Build a GraphQL API with Subscriptions using Python, Asyncio and Ariadne
+## Build a GraphQL API with Subscriptions using Python, Asyncio and Ariadne
 
 https://www.twilio.com/blog/graphql-api-subscriptions-python-asyncio-ariadne
 
