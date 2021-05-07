@@ -1,3 +1,13 @@
+from ariadne import (
+    ObjectType,
+    graphql_sync,
+    load_schema_from_path,
+    make_executable_schema,
+    snake_case_fallback_resolvers
+)
+from ariadne.constants import PLAYGROUND_HTML
+from flask import jsonify, request
+
 from api import app, db, models
 from api.mutations import (
     resolve_create_todo,
@@ -6,16 +16,6 @@ from api.mutations import (
     resolve_update_due_date
 )
 from api.queries import resolve_todo, resolve_todos
-from ariadne.constants import PLAYGROUND_HTML
-from flask import jsonify, request
-
-from ariadne import (
-    ObjectType,
-    graphql_sync,
-    load_schema_from_path,
-    make_executable_schema,
-    snake_case_fallback_resolvers
-)
 
 query = ObjectType("Query")
 

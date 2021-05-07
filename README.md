@@ -3,12 +3,13 @@
 GraphQL Experience
 
 
-* [Ariadne todo api](ariadne/todo_api/README.md)
+* [Ariadne todo api](ariadne/todo_api)
     * flask ariadne flask-sqlalchemy
 
-* [Ariadne chat api](ariadne/chat_api/README.md)
+* [Ariadne chat api](ariadne/chat_api)
     * ariadne uvicorn
 
-* [Graphene](graphene/lipiame/README.md)
+* [Graphene](graphene/lipiame)
     * fastapi sqlalchemy graphene
 
+https://github.com/Kludex/awesome-fastapi-projects

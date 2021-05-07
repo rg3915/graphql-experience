@@ -15,6 +15,29 @@ touch schema.graphql
 touch main.py
 ```
 
+### Create database
+
+```
+python
+
+from main import db
+db.create_all()
+from datetime import datetime
+from api.models import Todo
+today = datetime.today().date()
+todo = Todo(description="Run a marathon", due_date=today, completed=False)
+db.session.add(todo)
+db.session.commit()
+```
+
+### Run project
+
+```
+export FLASK_APP=main.py
+flask run
+```
+
+
 http://localhost:5000/graphql
 
 ```
