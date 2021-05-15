@@ -6,7 +6,10 @@ https://test.decoded.africa/graphql-the-python-experience/
 pip install fastapi sqlalchemy graphene graphene-sqlalchemy uvicorn
 ```
 
+```
 uvicorn schema:app --host 127.0.0.1 --port 8000
+```
+
 
 
 ```
