@@ -1,0 +1,5 @@
+fastapi==0.63.0
+graphene-sqlalchemy==2.3.0
+graphene==2.1.8
+SQLAlchemy==1.4.14
+uvicorn==0.13.4
